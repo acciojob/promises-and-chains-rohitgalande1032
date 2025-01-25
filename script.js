@@ -7,7 +7,7 @@ document.getElementById("btn").addEventListener("click", (e)=> {
 	let name = document.getElementById("name").value;
 
 	if(!age || !name) {
-		alert("inputs cannot be empty");
+		alert("Please enter valid details");
 	}
 	
 	let voter_age = parseInt(age);
